@@ -54,4 +54,18 @@ cd Salon-Ticketing-System
   
   4️⃣ Run Main.java 🎉
 
+### Your folders should look like this in IDE
+src/
+├── main/
+│   ├── java/              # Java Source Code
+│   │   ├── LoginController.java
+│   │   ├── BookingController.java
+│   │   ├── DatabaseConnection.java
+│   │   ├── Main.java
+│   ├── resources/         # Non-Java Resources
+│   │   ├── login.fxml
+│   │   ├── booking.fxml
+│   │   ├── styles.css
+│   │   ├── (pngs and jpgs)
+
   
