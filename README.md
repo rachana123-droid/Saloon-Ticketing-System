@@ -54,7 +54,7 @@ cd Salon-Ticketing-System
   
   4️⃣ Run Main.java 🎉
 
-### Your folders should look like this in IDE
+### Your folders should look like this in IDE(view in code)
 src/
 ├── main/
 │   ├── java/              # Java Source Code
