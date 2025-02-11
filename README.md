@@ -62,6 +62,7 @@ src/
 │   │   ├── BookingController.java
 │   │   ├── DatabaseConnection.java
 │   │   ├── Main.java
+|   |   ├── Ticket.java
 │   ├── resources/         # Non-Java Resources
 │   │   ├── login.fxml
 │   │   ├── booking.fxml
