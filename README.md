@@ -35,17 +35,15 @@ cd Salon-Ticketing-System
 
 1️⃣ Open MySQL Workbench or Command Line Client
 2️⃣ Create a new database:
-
-  CREATE DATABASE salon_ticketing;
-  USE salon_ticketing;
+    CREATE DATABASE salon_ticketing;
+    USE salon_ticketing;
 3️⃣ Create the tickets table:
-
-  CREATE TABLE tickets (
-      id INT AUTO_INCREMENT PRIMARY KEY,
-      customer_name VARCHAR(100),
-      services TEXT,
-      total_amount DECIMAL(10,2)
-  );
+    CREATE TABLE tickets (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        customer_name VARCHAR(100),
+        services TEXT,
+        total_amount DECIMAL(10,2)
+    );
 ### 4️⃣ Configure Database in Java
 
   In DatabaseConnection.java, update the credentials:
