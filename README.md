@@ -28,29 +28,22 @@ Before running the project, install:
 ✅ IntelliJ IDEA (Recommended IDE)  
 
 ### 2️⃣ Clone Repository  
-git clone https://github.com/yourusername/Salon-Ticketing-System.git
+git clone https://github.com/rachana123-droid/Salon-Ticketing-System.git
 cd Salon-Ticketing-System
 
 ### 3️⃣ Setup MySQL Database
 
 1️⃣ Open MySQL Workbench or Command Line Client
-2️⃣ Create a new database:
-    CREATE DATABASE salon_ticketing;
-    USE salon_ticketing;
-3️⃣ Create the tickets table:
-    CREATE TABLE tickets (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        customer_name VARCHAR(100),
-        services TEXT,
-        total_amount DECIMAL(10,2)
-    );
+2️⃣ Create a new database
+3️⃣ Create the tickets table
+
 ### 4️⃣ Configure Database in Java
 
   In DatabaseConnection.java, update the credentials:
-  
   private static final String URL = "jdbc:mysql://localhost:3306/salon_ticketing";
   private static final String USER = "root";  // Change if needed
   private static final String PASSWORD = "yourpassword";  // Update accordingly
+  
 ### 5️⃣ Run the Project
   
   1️⃣ Open IntelliJ IDEA
